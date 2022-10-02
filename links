@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <a href="file:///C:/Users/spesi/OneDrive/Desktop/stikh.html">стих</a>.
+    <a href="file:///C:/Users/spesi/OneDrive/Desktop/about.html">обо мне</a>
+    <a href="http://vk.com">любая ссылка в интернете</a>
+    <a href="file:///C:/Users/spesi/OneDrive/Desktop/table.html" target="_blank">таблицы</a>
+
+</body>
+</html>
