@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>О себе</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+    <h1>Содержание</h1>
+    <a href="#Хобби">Хобби</a><br>
+    <a href="#city">город</a><br>
+
+</head>
+<body>
+    <h1>Личная страница Спесивцева Владимира Родионовича</h1>
+    <p>
+        Родился 14 сентября 2000 года в Ленинграде. В 2017 году окончил лицей ИГУ с <br>
+        отличием. Одновременно с учебой работал ассистентом кафедры гражданского <br>
+        права ИГУ.
+    </p>
+    <ul>
+        <p><a name="Хобби"></a></p>
+        <li>Футбол</li>
+        <li>Плаванье</li>
+        <li>Программирование</li>
+        <li>Робототехника</li>
+    </ul>
+    <ol>
+        <li>игра пристолов</li>
+        <li>Теория большого взрыва</li>
+        <li>Кремниевая долина</li>
+    </ol>
+    <p><h2>Самое далекое место, где я был</h2></p>
+    <p>Якутск - город в Российской Федерации, столица Республики Саха (Якутия).<br>
+    Образует городской округ город Якутск.</p>
+    <img src = https://upload.wikimedia.org/wikipedia/commons/2/27/Yakutsk_panorama.jpg>
+<p>
+    <a name="city"></a><br>
+    Третий город Дальневосточного федерального округа по численности населения<br>
+    (после Владивостока и Хабаровска). Самый крупный город, расположенный в зоне<br>
+    вечной мерзлоты
+</p>
+</body>
+</html>
