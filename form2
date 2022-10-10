@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <legend>Текст сообщения</legend>
+        <textarea></textarea>
+        <p>
+            <select id="theme">
+
+                <option value="1">работа сайта</option>  
+
+                <option value="2">проблемы с сервером</option>
+
+                <option value="3">дизайн сайта</option>
+
+                <option value="4">HyperX</option>
+                
+                </select>
+        </p>
+        <p>
+            <p>Ожидаемая дата ответа</p>
+            <input type = "date">
+        </p>
+        <p>
+            <label>Получить ответ по телефону</label><br>
+            <input type="checkbox">
+        </p>
+        <p>
+            <label>Изображение(ваше фото)</label>
+            <input type="file">
+        </p>
+        <p>
+            <select name="us" multiple="multiple" size="4">
+                <option value="1">Каталог</option>
+                <option value="2">Поддержка</option>
+                <option value="3">Партнеры</option>
+                <option value="4">Компания</option>
+              </select>
+        </p>
+        <p>
+            <input type="radio" id="conc" name="urop" value="conc">
+            <label for="man">Конкурент</label><br>
+            <input type="radio" id="part" name="urop" value="part">
+            <label for="wom">Партнер</label><br>
+            <input type="radio" id="client" name="urop" value="client">
+            <label for="wom">Клиент</label><br>
+            
+        </p>
+    </form>
+</body>
+</html>
