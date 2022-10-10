@@ -40,7 +40,7 @@
             <legend><b>Какие языки вы знаете</b></legend>
             <label for="c++">c++</label>
             <input type="checkbox" id="c++" name="c++"><br>
-            <label for="pythosha">pythosha</label>
+            <label for="pythosha">python</label>
             <input type="checkbox" id="pythosha" name="pythosha"><br>
             <label for="js">js</label>
             <input type="checkbox" id="js" name="js">
