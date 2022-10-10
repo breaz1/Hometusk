@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <legend><b>Анкета студена</b></legend>
+        <p>
+            <label for="name">Имя</label>
+            <input type="text" id="name"></p> 
+        <legend><b>Ваш пол</b></legend>
+        <p>
+            <label for="man">Мужской</label>
+            <input type="radio" id="man" name="pol" value="man">
+        </p>
+        <p>
+            <label for="wom">Женский</label>
+            <input type="radio" id="wom" name="pol" value="wom">
+        </p>
+        <p>
+            <label for></label>
+            <select id="course">
+
+                <option value="fr">Первый</option>  
+
+                <option value="sec">Второй</option>
+
+                <option value="thr">Третий</option>
+
+                <option value="for">Четвертый</option>
+    
+                
+                </select>
+        </p>
+        <p>
+            <legend><b>Какие языки вы знаете</b></legend>
+            <label for="c++">c++</label>
+            <input type="checkbox" id="c++" name="c++"><br>
+            <label for="pythosha">pythosha</label>
+            <input type="checkbox" id="pythosha" name="pythosha"><br>
+            <label for="js">js</label>
+            <input type="checkbox" id="js" name="js">
+            
+        </p>
+        <p>
+            <label for="some">Напишите несколько слов о себе</label><br>
+            <textarea id="some" placeholder="Не более 200 символов" size = 200> </textarea>
+        </p> 
+        <p>
+            <input type="submit" value="Отправить данные">
+            <input type="reset" value="Очистить форму">
+        </p>
+        </p>
+    </form>
+</body>
+</html>
