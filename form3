@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <legend><b>My form</b></legend>
+        <p>
+            <label for="name">Введие имя</label>
+            <input type="text" name="name">
+        </p>
+        <p>
+            <label for="pass">Введите пароль</label>
+            <input type="password" name = "pass">
+        </p>
+        <p>
+            <label for="man">Мужской</label>
+            <input type="radio" id="man" name="pol" value="man"><br>
+            <label for="wom">Женский</label>
+            <input type="radio" id="wom" name="pol" value="wom">
+        </p>
+        <p>
+            <label>Отправьте резюме</label>
+            <input type="file">
+        </p>
+        <p>
+            <label for="theme">Какая у вас мышка</label>
+             <select id="theme">
+
+                <option value="1">Glorius</option>  
+
+                <option value="2">HyperX</option>
+
+                <option value="3">Razer</option>
+
+                <option value="4">Zowie</option>
+                
+                </select>
+        </p>
+        <p>
+            <label>Вы русский?</label><br>
+            <input type="checkbox">
+        </p>
+        <p>
+            <input type="hidden" value="BObka">
+        </p>
+        <p>
+            <input type="image" scr="https://i.pinimg.com/736x/90/0a/b7/900ab76cf0c3b2fe8683e0e2039beb00.jpg">
+        </p>
+        <p>
+            <input type="submit" value="Отправить данные">
+            <input type="reset" value="Очистить форму">
+            <input type="button" value="for fun)))" onClick='location.href="https://www.youtube.com/watch?v=jTb8jGbB4PA&ab_channel=DailyRay"'>
+        </p>
+    </form>
+</body>
+</html>
