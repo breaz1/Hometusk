@@ -49,12 +49,12 @@
             <input type="hidden" value="BObka">
         </p>
         <p>
-            <input type="image" scr="https://i.pinimg.com/736x/90/0a/b7/900ab76cf0c3b2fe8683e0e2039beb00.jpg">
+            <input type="image">
         </p>
         <p>
             <input type="submit" value="Отправить данные">
             <input type="reset" value="Очистить форму">
-            <input type="button" value="for fun)))" onClick='location.href="https://www.youtube.com/watch?v=jTb8jGbB4PA&ab_channel=DailyRay"'>
+            <input type="button" value="for fun)))" onClick='location.href="vk.com"'>
         </p>
     </form>
 </body>
